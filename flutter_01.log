@@ -1,0 +1,54 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run
+
+## exception
+
+RPCError: _flutter.listViews: (-32000) Bad state: The client closed with pending request "_flutter.listViews".
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel master, 1.26.0-2.0.pre.179, on Linux, locale en_GB.UTF-8)
+    • Flutter version 1.26.0-2.0.pre.179 at /home/blackz/snap/flutter/common/flutter
+    • Framework revision a293c82251 (3 weeks ago), 2021-01-05 04:04:03 -0500
+    • Engine revision b7352132cd
+    • Dart version 2.12.0 (build 2.12.0-179.0.dev)
+
+[!] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at /home/blackz/Android/Sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: /usr/bin/java
+    • Java version OpenJDK Runtime Environment (build 11.0.9.1+1-Ubuntu-0ubuntu1.20.04)
+    ✗ Android license status unknown.
+      Run `flutter doctor --android-licenses` to accept the SDK licenses.
+      See https://flutter.dev/docs/get-started/install/linux#android-setup for more details.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/linux#android-setup for detailed instructions).
+
+[✓] IntelliJ IDEA Community Edition (version 2020.3)
+    • IntelliJ at /snap/intellij-idea-community/270
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[✓] Connected device (2 available)
+    • sdk gphone x86 arm (mobile) • emulator-5554 • android-x86    • Android 11 (API 30) (emulator)
+    • Chrome (web)                • chrome        • web-javascript • Google Chrome 88.0.4324.96
+    ! Device 09671cdc is not authorized.
+      You might need to check your device for an authorization dialog.
+
+! Doctor found issues in 2 categories.
+```
